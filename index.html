@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Club Constitution</title>
+<meta name="description" content="The governing rules of the Book Club: meeting schedule, rescheduling, nominator selection, and ranked-choice book voting.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<style>
+:root{--paper:#f6f1e7;--card:#fffdf8;--ink:#2a251d;--muted:#6f6557;--line:#e3d9c6;--accent:#8c2f2f;--accent-soft:#f2e2e0}
+@media (prefers-color-scheme: dark){:root{--paper:#161310;--card:#221d16;--ink:#ece5d8;--muted:#a89e8d;--line:#3a332a;--accent:#d98b7f;--accent-soft:#37282442}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Georgia,"Iowan Old Style","Times New Roman",serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:1rem;top:1rem;background:var(--accent);color:#fff;padding:.4rem .7rem;border-radius:6px;z-index:10;text-decoration:none}
+.layout{max-width:1080px;margin:0 auto;padding:2.75rem 1.25rem 4rem;display:grid;grid-template-columns:236px minmax(0,1fr);gap:2.75rem;align-items:start}
+.toc{position:sticky;top:1.5rem;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.15rem}
+.toc h2{margin:0 0 .6rem;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-family:system-ui,sans-serif}
+.toc ol{list-style:none;margin:0;padding:0;font-size:.93rem}
+.toc a{display:flex;gap:.55rem;padding:.26rem .45rem;border-radius:7px;color:var(--ink);text-decoration:none}
+.toc a:hover{background:var(--accent-soft)}
+.toc .n{color:var(--accent);min-width:1.3em;font-variant-numeric:tabular-nums}
+.print-btn{margin-top:1rem;width:100%;font:600 .85rem system-ui,sans-serif;color:var(--muted);background:none;border:1px solid var(--line);border-radius:8px;padding:.5rem;cursor:pointer}
+.print-btn:hover{color:var(--accent);border-color:var(--accent)}
+.doc-head h1{font-size:2.15rem;line-height:1.18;margin:.15rem 0 .35rem}
+.preamble{color:var(--muted);font-style:italic;margin:.2rem 0 2.1rem}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.55rem 1.8rem;margin:0 0 1.35rem;scroll-margin-top:1.25rem}
+h2{display:flex;align-items:baseline;gap:.65rem;margin:0 0 1rem;font-size:1.3rem;font-weight:700}
+.art-no{color:var(--accent);font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;font-family:system-ui,sans-serif;font-weight:600}
+h3{margin:1.2rem 0 .3rem;font-size:1.03rem}
+.sec{color:var(--muted);margin-right:.4rem}
+p{margin:.35rem 0}
+ul{margin:.35rem 0;padding-left:1.4rem}
+li{margin:.28rem 0}
+.timeline{list-style:none;counter-reset:t;margin:.6rem 0 0;padding:0}
+.timeline li{counter-increment:t;position:relative;padding:0 0 1.05rem 2.5rem}
+.timeline li::before{content:counter(t);position:absolute;left:0;top:.02rem;width:1.65rem;height:1.65rem;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-family:system-ui,sans-serif;font-weight:600}
+.timeline li:not(:last-child)::after{content:"";position:absolute;left:.8rem;top:1.8rem;bottom:.15rem;width:2px;background:var(--line)}
+.end{margin-top:2.4rem;text-align:center;color:var(--muted);font-style:italic}
+@media (max-width:920px){.layout{grid-template-columns:1fr;padding-top:1.75rem;gap:1.5rem}.toc{position:static}.toc ol{columns:2;column-gap:1rem}}
+@media print{.toc,.print-btn,.skip{display:none}body{background:#fff;color:#000;font-size:11.5pt}.layout{display:block;max-width:none;padding:0}article{border:none;background:none;padding:0;break-inside:avoid;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to contents</a>
+<div class="layout">
+<aside><nav class="toc" aria-label="Table of contents">
+<h2>Contents</h2>
+<ol>
+<li><a href="#article-i"><span class="n">I</span>Purpose</a></li>
+<li><a href="#article-ii"><span class="n">II</span>Membership</a></li>
+<li><a href="#article-iii"><span class="n">III</span>Regular Meeting Schedule</a></li>
+<li><a href="#article-iv"><span class="n">IV</span>Rescheduling of Meetings</a></li>
+<li><a href="#article-v"><span class="n">V</span>Selection of the Nominator</a></li>
+<li><a href="#article-vi"><span class="n">VI</span>Book Nomination Process</a></li>
+<li><a href="#article-vii"><span class="n">VII</span>Book Voting Process</a></li>
+<li><a href="#article-viii"><span class="n">VIII</span>Meeting Date & Time Voting</a></li>
+<li><a href="#article-ix"><span class="n">IX</span>Summary Timeline</a></li>
+<li><a href="#article-x"><span class="n">X</span>Amendments</a></li>
+</ol>
+<button class="print-btn" onclick="window.print()">Print / save as PDF</button>
+</nav></aside>
+<main id="content">
+<header class="doc-head">
+<h1>Book Club Constitution</h1>
+<p class="preamble">Adopted by unanimous consent of the membership</p>
+</header>
+
+<article id="article-i">
+<h2><span class="art-no">Article I</span> Purpose</h2>
+<p>This Constitution establishes the governing rules and procedures of the Book Club (the &ldquo;Club&rdquo;), including the schedule of meetings, the process for rescheduling meetings, the selection of book nominators, and the nomination and voting procedures for selecting books to be read. All members of the Club agree to be bound by the provisions set forth herein.</p>
+</article>
+
+<article id="article-ii">
+<h2><span class="art-no">Article II</span> Membership</h2>
+<h3><span class="sec">Section 1.</span></h3>
+<p>A &ldquo;Member&rdquo; is any individual recognized by the Club as an active participant in good standing.</p>
+<h3><span class="sec">Section 2.</span></h3>
+<p>All rights and obligations described in this Constitution &mdash; including eligibility to nominate, vote, and reschedule &mdash; apply equally to all Members.</p>
+</article>
+
+<article id="article-iii">
+<h2><span class="art-no">Article III</span> Regular Meeting Schedule</h2>
+<h3><span class="sec">Section 1.</span> Interval</h3>
+<p>Regular meetings of the Club shall be held once every seven (7) weeks, plus or minus one (1) day depending on whether the meeting falls on a Saturday or a Sunday, so as to allow approximately six (6) weeks of reading time between meetings.</p>
+<h3><span class="sec">Section 2.</span> Day of Week</h3>
+<p>Regular meetings shall be held on a Saturday or Sunday, as determined by vote pursuant to Article VIII.</p>
+</article>
+
+<article id="article-iv">
+<h2><span class="art-no">Article IV</span> Rescheduling of Meetings</h2>
+<h3><span class="sec">Section 1.</span> Request to Move</h3>
+<p>If three (3) or more Members request, in the Club&rsquo;s group chat, that a scheduled meeting be moved, the meeting shall be rescheduled in accordance with this Article.</p>
+<h3><span class="sec">Section 2.</span> Limitation</h3>
+<p>Any given meeting may be rescheduled only once, and only by exactly one (1) week from its originally scheduled date.</p>
+<h3><span class="sec">Section 3.</span> Selecting the New Date</h3>
+<p>Once a valid request to move has been made, Members shall vote in the group chat on the date and time of the rescheduled meeting. The available options shall be limited to the Saturday or Sunday of the following week. The date and time receiving the most votes shall become the new meeting date.</p>
+<h3><span class="sec">Section 4.</span> Effect on Future Meetings</h3>
+<p>Following a rescheduling, the standard seven (7) week interval described in Article III shall resume, measured from the new (rescheduled) meeting date.</p>
+<h3><span class="sec">Section 5.</span> Nominator Eligibility Following a Reschedule</h3>
+<p>A Member who is otherwise unable to attend a rescheduled meeting shall nonetheless remain eligible to be considered for nomination under Article VI, provided that such Member can credibly demonstrate that they have read the current book.</p>
+</article>
+
+<article id="article-v">
+<h2><span class="art-no">Article V</span> Selection of the Nominator</h2>
+<h3><span class="sec">Section 1.</span> Random Selection</h3>
+<p>The nominator for each round shall be determined by random number generator, drawn from the pool of eligible Members.</p>
+<h3><span class="sec">Section 2.</span> Rotation Requirement</h3>
+<p>A Member who has previously served as nominator shall not be eligible to be selected again until every other Member of the Club has had an opportunity to serve as nominator. Once all Members have nominated once, the rotation resets and all Members again become eligible.</p>
+<h3><span class="sec">Section 3.</span> Eligibility Requirements</h3>
+<p>To be eligible for selection as nominator, a Member must, with respect to the immediately preceding book and meeting:</p>
+<ul>
+<li>Have read the previous book; and</li>
+<li>Have been present at the book club meeting at which that book was discussed.</li>
+</ul>
+<h3><span class="sec">Section 4.</span> Exception for Rescheduled Meetings</h3>
+<p>Notwithstanding Section 3, if a meeting has been rescheduled pursuant to Article IV and a Member is unable to attend the rescheduled date, that Member shall remain eligible for nomination so long as they can credibly demonstrate they have read the applicable book.</p>
+</article>
+
+<article id="article-vi">
+<h2><span class="art-no">Article VI</span> Book Nomination Process</h2>
+<h3><span class="sec">Section 1.</span> Timing</h3>
+<p>Book nominations and the subsequent vote must be completed within one (1) week of the nominator being selected.</p>
+<h3><span class="sec">Section 2.</span> Selection of Candidates</h3>
+<p>The nominator shall select three (3) candidate books to be presented to the Club for a vote.</p>
+</article>
+
+<article id="article-vii">
+<h2><span class="art-no">Article VII</span> Book Voting Process</h2>
+<h3><span class="sec">Section 1.</span> Method</h3>
+<p>The Club shall select its next book using ranked-choice voting among the three (3) candidate books presented by the nominator.</p>
+<h3><span class="sec">Section 2.</span> Result</h3>
+<p>The book receiving the highest ranking under the ranked-choice tabulation shall be adopted as the Club&rsquo;s next book.</p>
+</article>
+
+<article id="article-viii">
+<h2><span class="art-no">Article VIII</span> Meeting Date and Time Voting Process</h2>
+<h3><span class="sec">Section 1.</span></h3>
+<p>Following the selection of the next book, the Club shall vote to set the date and time of the next regular meeting.</p>
+<h3><span class="sec">Section 2.</span></h3>
+<p>The next regular meeting shall fall on a weekend occurring seven (7) weeks after the most recent meeting, on either a Saturday or a Sunday, consistent with Article III.</p>
+<h3><span class="sec">Section 3.</span></h3>
+<p>Members shall vote on their preferred date and time in the group chat; the option receiving the most votes shall be adopted.</p>
+</article>
+
+<article id="article-ix">
+<h2><span class="art-no">Article IX</span> Summary Timeline</h2>
+<ol class="timeline">
+<li>Nominator is randomly selected from eligible Members.</li>
+<li>Within one (1) week: nominator proposes three (3) candidate books; Club conducts ranked-choice vote; winning book is adopted.</li>
+<li>Club votes on the date and time of the next meeting (Saturday or Sunday, seven weeks out).</li>
+<li>Members read the selected book (approximately six weeks of reading time).</li>
+<li>Club meets to discuss the book; a new nominator is randomly selected from eligible Members; cycle repeats.</li>
+</ol>
+</article>
+
+<article id="article-x">
+<h2><span class="art-no">Article X</span> Amendments</h2>
+<p>This Constitution may be amended by majority vote of the Members present at any regular meeting, provided the proposed amendment has been shared with all Members in advance.</p>
+</article>
+
+<p class="end">End of Constitution</p>
+</main>
+</div>
+</body>
+</html>
