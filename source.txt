@@ -1,0 +1,42 @@
+BOOK CLUB CONSTITUTION
+Adopted by unanimous consent of the membership
+Article I — Purpose
+This Constitution establishes the governing rules and procedures of the Book Club (the "Club"), including the schedule of meetings, the process for rescheduling meetings, the selection of book nominators, and the nomination and voting procedures for selecting books to be read. All members of the Club agree to be bound by the provisions set forth herein.
+Article II — Membership
+Section 1. A "Member" is any individual recognized by the Club as an active participant in good standing.
+Section 2. All rights and obligations described in this Constitution — including eligibility to nominate, vote, and reschedule — apply equally to all Members.
+Article III — Regular Meeting Schedule
+Section 1. Interval. Regular meetings of the Club shall be held once every seven (7) weeks, plus or minus one (1) day depending on whether the meeting falls on a Saturday or a Sunday, so as to allow approximately six (6) weeks of reading time between meetings.
+Section 2. Day of Week. Regular meetings shall be held on a Saturday or Sunday, as determined by vote pursuant to Article VIII.
+Article IV — Rescheduling of Meetings
+Section 1. Request to Move. If three (3) or more Members request, in the Club's group chat, that a scheduled meeting be moved, the meeting shall be rescheduled in accordance with this Article.
+Section 2. Limitation. Any given meeting may be rescheduled only once, and only by exactly one (1) week from its originally scheduled date.
+Section 3. Selecting the New Date. Once a valid request to move has been made, Members shall vote in the group chat on the date and time of the rescheduled meeting. The available options shall be limited to the Saturday or Sunday of the following week. The date and time receiving the most votes shall become the new meeting date.
+Section 4. Effect on Future Meetings. Following a rescheduling, the standard seven (7) week interval described in Article III shall resume, measured from the new (rescheduled) meeting date.
+Section 5. Nominator Eligibility Following a Reschedule. A Member who is otherwise unable to attend a rescheduled meeting shall nonetheless remain eligible to be considered for nomination under Article VI, provided that such Member can credibly demonstrate that they have read the current book.
+Article V — Selection of the Nominator
+Section 1. Random Selection. The nominator for each round shall be determined by random number generator, drawn from the pool of eligible Members.
+Section 2. Rotation Requirement. A Member who has previously served as nominator shall not be eligible to be selected again until every other Member of the Club has had an opportunity to serve as nominator. Once all Members have nominated once, the rotation resets and all Members again become eligible.
+Section 3. Eligibility Requirements. To be eligible for selection as nominator, a Member must, with respect to the immediately preceding book and meeting:
+Have read the previous book; and
+Have been present at the book club meeting at which that book was discussed.
+Section 4. Exception for Rescheduled Meetings. Notwithstanding Section 3, if a meeting has been rescheduled pursuant to Article IV and a Member is unable to attend the rescheduled date, that Member shall remain eligible for nomination so long as they can credibly demonstrate they have read the applicable book.
+Article VI — Book Nomination Process
+Section 1. Timing. Book nominations and the subsequent vote must be completed within one (1) week of the nominator being selected.
+Section 2. Selection of Candidates. The nominator shall select three (3) candidate books to be presented to the Club for a vote.
+Article VII — Book Voting Process
+Section 1. Method. The Club shall select its next book using ranked-choice voting among the three (3) candidate books presented by the nominator.
+Section 2. Result. The book receiving the highest ranking under the ranked-choice tabulation shall be adopted as the Club's next book.
+Article VIII — Meeting Date and Time Voting Process
+Section 1. Following the selection of the next book, the Club shall vote to set the date and time of the next regular meeting.
+Section 2. The next regular meeting shall fall on a weekend occurring seven (7) weeks after the most recent meeting, on either a Saturday or a Sunday, consistent with Article III.
+Section 3. Members shall vote on their preferred date and time in the group chat; the option receiving the most votes shall be adopted.
+Article IX — Summary Timeline
+Nominator is randomly selected from eligible Members.
+Within one (1) week: nominator proposes three (3) candidate books; Club conducts ranked-choice vote; winning book is adopted.
+Club votes on the date and time of the next meeting (Saturday or Sunday, seven weeks out).
+Members read the selected book (approximately six weeks of reading time).
+Club meets to discuss the book; a new nominator is randomly selected from eligible Members; cycle repeats.
+Article X — Amendments
+This Constitution may be amended by majority vote of the Members present at any regular meeting, provided the proposed amendment has been shared with all Members in advance.
+End of Constitution
