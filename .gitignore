@@ -2,3 +2,4 @@ _qa/
 sync.log
 __pycache__/
 *.pyc
+HANDOFF.md
